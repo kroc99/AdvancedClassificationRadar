@@ -6,12 +6,11 @@ This project aims to develop an AI-powered radar system capable of detecting, cl
 ---
 
 ## Hardware Setup
-- **Radar Sensor**: BGT24MTR11
+- **Radar Sensor**: BGT24MTR11 ($13) Might need to spend more for gator detection
 - **Microcontroller**: Raspberry Pi
 
 ### Steps:
-1. Set up the radar sensor with the microcontroller for data collection.
-2. Ensure the system is operational for capturing radar reflections through walls.
+1. 
 
 ---
 
@@ -19,7 +18,7 @@ This project aims to develop an AI-powered radar system capable of detecting, cl
 - **Data Collection**: Capture radar reflection data from objects behind walls.
 - **Preprocessing**:
   - Filter out noise.
-  - Extract relevant features (e.g., distance, speed, object size) from the radar data.
+  - Extract relevant features.
 
 ---
 
@@ -74,7 +73,7 @@ This project aims to develop an AI-powered radar system capable of detecting, cl
 - **Radar Sensor**: BGT24MTR11
 - **Microcontroller**: Raspberry Pi
 - **Programming Languages**: Python, JavaScript (for UI)
-- **Machine Learning Libraries**: TensorFlow, PyTorch, or scikit-learn for model development
+- **Machine Learning Libraries**: TensorFlow
 - **UI Tools**: Tkinter, PyQt (Python) or React (JavaScript)
 
 ---
@@ -82,4 +81,4 @@ This project aims to develop an AI-powered radar system capable of detecting, cl
 ## Goals
 - Detect and classify objects in real-time through walls using radar and AI.
 - Provide a user-friendly interface for visualization and control.
-- Achieve reliable and accurate object classification with a functional real-time tracking system.
+- Maybe integrate with gators if possible.
