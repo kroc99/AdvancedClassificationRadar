@@ -6,7 +6,7 @@ This project aims to develop an AI-powered radar system capable of detecting, cl
 ---
 
 ## Hardware Setup
-- **Radar Sensor**: BGT24MTR11 ($13) Might need to spend more for gator detection
+- **Radar Sensor**: BGT24MTR11 ($13) Might need to spend more for gator detection.
 - **Microcontroller**: Raspberry Pi
 
 ### Steps:
@@ -56,17 +56,16 @@ This project aims to develop an AI-powered radar system capable of detecting, cl
 
 ### Control & Calibration Options:
 - **Sensitivity Controls**: Adjust system sensitivity to detect smaller or more distant objects.
-- **Environment Selection**: Calibrate the system for different wall types and materials (e.g., drywall, concrete).
+- **Environment Selection**: Calibrate the system for different types and materials (e.g., water, dirt trees).
 - **Signal Type Settings**: For systems with multiple signal types (e.g., radar frequencies), allow users to switch between or optimize the signal.
 
 ### Alerts & Notifications:
 - **Motion Alerts**: Notify the user when unexpected movement is detected.
-- **Custom Triggers**: Let users set specific conditions, such as alerts when a human is detected behind a wall.
+- **Custom Triggers**: Let users set specific conditions, such as alerts when a gator is detected in water.
 
 ### Data Logging:
 - **History Tracking**: Log detected object data over time for later review or analysis.
-  - Useful for long-term monitoring applications, such as security or wildlife tracking.
-
+  - Useful for long-term monitoring applications, such as wildlife tracking.
 --- 
 
 ## Technologies Used
@@ -74,11 +73,10 @@ This project aims to develop an AI-powered radar system capable of detecting, cl
 - **Microcontroller**: Raspberry Pi
 - **Programming Languages**: Python, JavaScript (for UI)
 - **Machine Learning Libraries**: TensorFlow
-- **UI Tools**: Tkinter, PyQt (Python) or React (JavaScript)
+- **UI Tools**:PyQt (Python) or React (JavaScript), could realistically be anything but I think UI build using a relevant would be best for club members.
 
 ---
 
 ## Goals
-- Detect and classify objects in real-time through walls using radar and AI.
+- Detect and classify objects (Gators) in real-time through walls using radar and AI.
 - Provide a user-friendly interface for visualization and control.
-- Maybe integrate with gators if possible.
