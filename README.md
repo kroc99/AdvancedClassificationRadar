@@ -73,7 +73,7 @@ This project aims to develop an AI-powered radar system capable of detecting, cl
 - **Microcontroller**: Raspberry Pi
 - **Programming Languages**: Python, JavaScript (for UI)
 - **Machine Learning Libraries**: TensorFlow
-- **UI Tools**:PyQt (Python) or React (JavaScript), could realistically be anything but I think UI build using a relevant would be best for club members.
+- **UI Tools**:PyQt (Python) or React (JavaScript), could realistically be anything but I think UI build using a relevant stack would be best for club members.
 
 ---
 
